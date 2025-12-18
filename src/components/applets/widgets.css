@@ -1,0 +1,37 @@
+.menuItemList {
+  display: flex;
+  flex-direction: column;
+}
+
+.menuBundle {
+  color: rgb(125, 0, 17);
+  font-size: large;
+  border-top: 1.5px solid rgb(0, 0, 0);
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  border-radius: 2px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 0;
+  height: 13px;
+  background-color: rgb(174, 255, 0);
+}
+
+.menuBundle:hover {
+  background-color: rgb(96, 165, 0);
+}
+
+.subMenuItem {
+  list-style-type: none;
+  align-self: flex-begin;
+  display: block;
+}
+
+.menuExpand {
+  margin: 0;
+  padding: 0 0 0 8px; /* slight left indent */
+  display: block; /* ensure it's not flex */
+  text-align: left; /* force text left */
+  background-color: rgb(171, 171, 171);
+}

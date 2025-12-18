@@ -1,0 +1,22 @@
+.App {
+  font-family: "Ledger", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+.NavBar {
+  text-align: begin;
+  background-color: rgba(0, 60, 255, 0.7);
+  font-family: "Ledger", serif;
+  font-weight: 500;
+  font-style: normal;
+  color: rgb(162, 255, 80);
+}
+
+nav .Home {
+  font-family: "Ledger", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
